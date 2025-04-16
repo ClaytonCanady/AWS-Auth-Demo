@@ -23,12 +23,10 @@
     "typeRoots": [
       "./node_modules/@types"
     ],
-    "outDir": "dist",
-    "esModuleInterop": true,
-    "moduleResolution": "node"
+    "outDir": "dist"
   },
   "exclude": [
     "node_modules",
     "cdk.out"
   ]
-}
+} 

@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "cdk deploy"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +19,12 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "jwks-rsa": "^3.2.0"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.124.0",
+    "aws-cdk-lib": "^2.124.0",
+    "constructs": "^10.0.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
   }
 }
