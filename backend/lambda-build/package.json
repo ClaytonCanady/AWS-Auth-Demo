@@ -1,0 +1,13 @@
+{
+    "name": "lambda-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+      "aws-sdk": "^2.1692.0",
+      "aws-serverless-express": "^3.4.0",
+      "dotenv": "^16.4.7",
+      "express": "^5.1.0",
+      "jsonwebtoken": "^9.0.2",
+      "jwks-rsa": "^3.2.0"
+    }
+  }

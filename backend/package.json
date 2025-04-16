@@ -15,16 +15,18 @@
   "description": "",
   "dependencies": {
     "aws-sdk": "^2.1692.0",
+    "aws-serverless-express": "^3.4.0",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "jwks-rsa": "^3.2.0"
   },
   "devDependencies": {
+    "@types/node": "^20.17.30",
     "aws-cdk": "^2.124.0",
-    "aws-cdk-lib": "^2.124.0",
-    "constructs": "^10.0.0",
-    "typescript": "^5.0.0",
-    "@types/node": "^20.0.0"
+    "aws-cdk-lib": "^2.189.1",
+    "constructs": "^10.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
